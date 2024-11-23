@@ -3,9 +3,39 @@
     white-space: pre;
 }
 
+li {
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    display: inline;
+  }
+
 body {
+    font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
-    color:ghostwhite;
-    background-color: #f850fb;
+    color: white;
+    background-color: #fb00ff;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+div {
+    background-color: #fd73ff;
+    border-style: ridge;
+    padding: 80px;
+    padding-top: 0%;
+}
+
+header {
+    background-color: #fd73ff;
+    border-style: ridge;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 70px;
 }
 
